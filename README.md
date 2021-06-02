@@ -8,7 +8,7 @@ The official, hosted playground can be found at https://developer.mulesoft.com/l
 
 #### CLI
 
-To launch the playground from the [CLI](#CLI) use the following command:
+To launch the playground from the [CLI](#cli-1) use the following command:
 
 ```shell
 dw --eval --spell Playground
