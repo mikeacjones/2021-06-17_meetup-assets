@@ -8,7 +8,7 @@ The official, hosted playground can be found at https://developer.mulesoft.com/l
 
 #### CLI
 
-To launch the playground for the [CLI](#CLI) use the following command:
+To launch the playground from the [CLI](#CLI) use the following command:
 
 ```shell
 dw --eval --spell Playground
@@ -25,5 +25,31 @@ docker compose up -d
 ```
 
 _Note: If you aren't running the latest docker CLI, and instead are using the separate docker-compose CLI, run `docker-compose`_
+
+
+## CLI
+
+Via mulesoft-labs, you can download a CLI tool that allows you to run DataWeave scripts outside of MuleSoft applications.
+
+For detailed instructions, see the GitHub repository: https://github.com/mulesoft-labs/data-weave-native
+
+#### Mac
+
+Using homebrew, run the following:
+
+```shell
+brew tap mulesoft-labs/data-weave
+brew install dw
+```
+
+#### Windows
+
+1. Download the zip: https://github.com/mulesoft-labs/data-weave-native/releases/download/v1.0.9/dw-1.0.9-Windows.zip
+2. Extract somewhere you have access to (recommended `%USERPROFILE%\.dw\`)
+3. Add to path
+
+#### Linux
+
+Use either Mac approach, or manually install using Windows approach with this zip file: https://github.com/mulesoft-labs/data-weave-native/releases/download/v1.0.9/dw-1.0.9-Linux.zip
 
 ---
