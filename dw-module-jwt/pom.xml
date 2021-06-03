@@ -15,6 +15,14 @@
         <weave.version>2.4.0-SNAPSHOT</weave.version>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>exchange-repository</id>
+            <url>https://maven.anypoint.mulesoft.com/api/v2/organizations/af871948-2dd2-4f4c-8bbd-f6a997cd48d7/maven</url>
+            <layout>default</layout>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
 
         <dependency>
